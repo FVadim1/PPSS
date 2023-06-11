@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/P06B-Integracion.iml" filepath="$PROJECT_DIR$/.idea/P06B-Integracion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dbunit/dbunitexample/dbunitexample.iml" filepath="$PROJECT_DIR$/dbunit/dbunitexample/dbunitexample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dbunit/matriculacion/matriculacion.iml" filepath="$PROJECT_DIR$/dbunit/matriculacion/matriculacion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dbunit/matriculacion/matriculacion-bo/matriculacion-bo.iml" filepath="$PROJECT_DIR$/dbunit/matriculacion/matriculacion-bo/matriculacion-bo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dbunit/matriculacion/matriculacion-comun/matriculacion-comun.iml" filepath="$PROJECT_DIR$/dbunit/matriculacion/matriculacion-comun/matriculacion-comun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dbunit/matriculacion/matriculacion-dao/matriculacion-dao.iml" filepath="$PROJECT_DIR$/dbunit/matriculacion/matriculacion-dao/matriculacion-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dbunit/matriculacion/matriculacion-proxy/matriculacion-proxy.iml" filepath="$PROJECT_DIR$/dbunit/matriculacion/matriculacion-proxy/matriculacion-proxy.iml" />
+    </modules>
+  </component>
+</project>

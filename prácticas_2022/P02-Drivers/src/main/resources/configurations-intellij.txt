@@ -1,0 +1,17 @@
+Run CineTest
+test -Dtest=CineTest -DexcludedGroups=parametrizado
+
+Run DataArrayTest
+test -Dtest=DataArrayTest
+
+Run FicheroTextoTest sin excluidos
+test -Dtest=FicheroTextoTest -DexcludedGroups=excluido
+
+Run parametrizado con excepciones
+test -Dgroups=conExcepciones
+
+Run parametrizados
+test -Dgroups=parametrizado
+
+Run todos
+test -Dtest=CineTest,DataArrayTest,FicheroTextoTest -DexcludedGroups=parametrizado,excluido

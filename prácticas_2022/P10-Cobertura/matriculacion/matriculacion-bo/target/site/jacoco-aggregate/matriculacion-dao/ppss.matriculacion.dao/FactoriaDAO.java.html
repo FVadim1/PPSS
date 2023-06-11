@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../jacoco-resources/report.gif" type="image/gif"/><title>FactoriaDAO.java</title><link rel="stylesheet" href="../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../index.html" class="el_report">matriculacion-bo</a> &gt; <a href="../index.html" class="el_bundle">matriculacion-dao</a> &gt; <a href="index.source.html" class="el_package">ppss.matriculacion.dao</a> &gt; <span class="el_source">FactoriaDAO.java</span></div><h1>FactoriaDAO.java</h1><pre class="source lang-java linenums">package ppss.matriculacion.dao;
+
+/**
+ * La clase &lt;code&gt;GestorDAO&lt;/code&gt; se utilizara como factoria de los objetos de acceso
+ * a datos de la aplicacion. 
+ *
+ */
+<span class="fc" id="L8">public class FactoriaDAO {</span>
+	/**
+	 * Devuelve al DAO para acceder a los datos de los alumnos.
+	 * @return DAO que da acceso a los alumnos.
+	 */
+	public IAlumnoDAO getAlumnoDAO() {
+<span class="fc" id="L14">		return new JDBCAlumnoDAO();</span>
+	}	
+
+	/**
+	 * Devuelve al DAO para acceder a los datos de las asignaturas.
+	 * @return DAO que da acceso a las asignaturas.
+	 */
+	public IAsignaturaDAO getAsignaturaDAO() {
+<span class="nc" id="L22">		return new JDBCAsignaturaDAO();</span>
+	}	
+
+	/**
+	 * Devuelve al DAO para acceder a los datos de matriculacion.
+	 * @return DAO que da acceso a las matriculaciones.
+	 */
+	public IMatriculaDAO getMatriculaDAO() {
+<span class="nc" id="L30">		return new JDBCMatriculaDAO();</span>
+	}	
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

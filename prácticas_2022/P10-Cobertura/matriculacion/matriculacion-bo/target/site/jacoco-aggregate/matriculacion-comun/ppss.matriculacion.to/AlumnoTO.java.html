@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../jacoco-resources/report.gif" type="image/gif"/><title>AlumnoTO.java</title><link rel="stylesheet" href="../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../index.html" class="el_report">matriculacion-bo</a> &gt; <a href="../index.html" class="el_bundle">matriculacion-comun</a> &gt; <a href="index.source.html" class="el_package">ppss.matriculacion.to</a> &gt; <span class="el_source">AlumnoTO.java</span></div><h1>AlumnoTO.java</h1><pre class="source lang-java linenums">package ppss.matriculacion.to;
+
+import java.time.LocalDate;
+import java.util.List;
+
+/**
+ * La clase &lt;code&gt;AlumnoTO&lt;/code&gt; se encarga de encapsular los datos de los alumnos.
+ *
+ */
+<span class="fc" id="L10">public class AlumnoTO implements Comparable&lt;AlumnoTO&gt; {</span>
+	
+	/**
+	 * NIF del alumno.
+	 */
+	String nif;
+	
+	/**
+	 * Nombre del alumno.
+	 */
+	String nombre;
+	
+	/** 
+	 * Direccion postal del alumno.
+	 */
+	String direccion;
+	
+	/**
+	 * Direccion de correo electronico del alumno.
+	 */
+	String email;
+	
+	/**
+	 * Lista de telefonos del alumno.
+	 */
+	List&lt;String&gt; telefonos;
+	
+	/**
+	 * Fecha de nacimiento del alumno.
+	 */
+	LocalDate fechaNacimiento;
+		
+	public String getNif() {
+<span class="fc" id="L43">		return nif;</span>
+	}
+
+	public void setNif(String nif) {
+<span class="fc" id="L47">		this.nif = nif;</span>
+<span class="fc" id="L48">	}</span>
+
+	public String getNombre() {
+<span class="fc" id="L51">		return nombre;</span>
+	}
+
+	public void setNombre(String nombre) {
+<span class="fc" id="L55">		this.nombre = nombre;</span>
+<span class="fc" id="L56">	}</span>
+
+	public String getDireccion() {
+<span class="fc" id="L59">		return direccion;</span>
+	}
+
+	public void setDireccion(String direccion) {
+<span class="nc" id="L63">		this.direccion = direccion;</span>
+<span class="nc" id="L64">	}</span>
+
+	public String getEmail() {
+<span class="fc" id="L67">		return email;</span>
+	}
+
+	public void setEmail(String email) {
+<span class="nc" id="L71">		this.email = email;</span>
+<span class="nc" id="L72">	}</span>
+
+	public List&lt;String&gt; getTelefonos() {
+<span class="nc" id="L75">		return telefonos;</span>
+	}
+
+	public void setTelefonos(List&lt;String&gt; telefonos) {
+<span class="nc" id="L79">		this.telefonos = telefonos;</span>
+<span class="nc" id="L80">	}</span>
+
+	public LocalDate getFechaNacimiento() {
+<span class="fc" id="L83">		return fechaNacimiento;</span>
+	}
+
+	public void setFechaNacimiento(LocalDate fechaNacimiento) {
+<span class="fc" id="L87">		this.fechaNacimiento = fechaNacimiento;</span>
+<span class="fc" id="L88">	}</span>
+
+	/**
+	 * Comprueba si dos alumnos son iguales. Dos alumnos se consideraran iguales
+	 * si tienen el mismo NIF.
+	 */
+	@Override
+	public boolean equals(Object o) {
+<span class="nc bnc" id="L96" title="All 2 branches missed.">		if(o instanceof AlumnoTO) {</span>
+<span class="nc" id="L97">			AlumnoTO p = (AlumnoTO)o;</span>
+<span class="nc bnc" id="L98" title="All 2 branches missed.">			return nif == p.getNif();			</span>
+		} else {
+<span class="nc" id="L100">			return false;</span>
+		}
+	}
+
+	/**
+	 * Ordena alfabeticamente los alumnos por nombre ascendente
+	 */
+	public int compareTo(AlumnoTO o) {
+<span class="nc" id="L108">		return this.getNombre().compareToIgnoreCase(o.getNombre());</span>
+	}
+
+	public String toString() {
+<span class="nc" id="L112">		return nif;</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

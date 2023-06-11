@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: ejercicio1.sinPageObject.TestLogin
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 11.197 s <<< FAILURE! - in ejercicio1.sinPageObject.TestLogin
+ejercicio1.sinPageObject.TestLogin.loginOK  Time elapsed: 5.395 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <> but was: <This is a required field.>
+	at ejercicio1.sinPageObject.TestLogin.loginOK(TestLogin.java:55)
+

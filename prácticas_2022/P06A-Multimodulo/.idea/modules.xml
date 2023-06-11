@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/P06A-Multimodulo.iml" filepath="$PROJECT_DIR$/.idea/P06A-Multimodulo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multimodulos/hotel/hotelDatabase/hotelDatabase.iml" filepath="$PROJECT_DIR$/multimodulos/hotel/hotelDatabase/hotelDatabase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multimodulos/hotel/hotelWebApp/hotelWebApp.iml" filepath="$PROJECT_DIR$/multimodulos/hotel/hotelWebApp/hotelWebApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multimodulos/matriculacion/matriculacion.iml" filepath="$PROJECT_DIR$/multimodulos/matriculacion/matriculacion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multimodulos/matriculacion/matriculacion-bo/matriculacion-bo.iml" filepath="$PROJECT_DIR$/multimodulos/matriculacion/matriculacion-bo/matriculacion-bo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multimodulos/matriculacion/matriculacion-comun/matriculacion-comun.iml" filepath="$PROJECT_DIR$/multimodulos/matriculacion/matriculacion-comun/matriculacion-comun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multimodulos/matriculacion/matriculacion-dao/matriculacion-dao.iml" filepath="$PROJECT_DIR$/multimodulos/matriculacion/matriculacion-dao/matriculacion-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multimodulos/matriculacion/matriculacion-proxy/matriculacion-proxy.iml" filepath="$PROJECT_DIR$/multimodulos/matriculacion/matriculacion-proxy/matriculacion-proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multimodulos/hotel/ppss.iml" filepath="$PROJECT_DIR$/multimodulos/hotel/ppss.iml" />
+    </modules>
+  </component>
+</project>

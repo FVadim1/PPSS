@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: ppss.ClienteDAO_IT
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.457 s <<< FAILURE! - in ppss.ClienteDAO_IT
+testInsert  Time elapsed: 0.019 s  <<< FAILURE!
+org.dbunit.assertion.DbComparisonFailure: row count (table=cliente) expected:<1> but was:<0>
+	at ppss.ClienteDAO_IT.testInsert(ClienteDAO_IT.java:64)
+

@@ -1,0 +1,8 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+matriculacion-dao/matriculacion-comun,ppss.matriculacion.to,DatosEconomicosAlumnoTO,24,0,0,0,10,0,7,0,7,0
+matriculacion-dao/matriculacion-comun,ppss.matriculacion.to,AlumnoTO,41,30,4,0,13,12,9,9,7,9
+matriculacion-dao/matriculacion-comun,ppss.matriculacion.to,DatosEconomicosAlumnoTO.TiposBeca,34,0,0,0,2,0,1,0,1,0
+matriculacion-dao/matriculacion-comun,ppss.matriculacion.to,MatriculaTO,24,0,0,0,10,0,7,0,7,0
+matriculacion-dao/matriculacion-comun,ppss.matriculacion.to,AsignaturaTO,45,0,4,0,15,0,11,0,9,0
+matriculacion-dao/matriculacion-comun,ppss.matriculacion.to,ReciboMatriculaTO.LineaReciboMatriculaTO,26,0,0,0,12,0,6,0,6,0
+matriculacion-dao/matriculacion-comun,ppss.matriculacion.to,ReciboMatriculaTO,42,0,0,0,15,0,9,0,9,0

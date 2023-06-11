@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: ejercicio3.conPOyPFact.TestShoes
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.773 s <<< FAILURE! - in ejercicio3.conPOyPFact.TestShoes
+ejercicio3.conPOyPFact.TestShoes  Time elapsed: 0.773 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=99.0.4844.84)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'ppss-VB', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-44-generic', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f5a7a4b379fbb7b2c74e051cd5b19654, get {url=http://demo-store.seleniumacademy.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /tmp/.com.google.Chrome.T3rr83}, goog:chromeOptions: {debuggerAddress: localhost:33937}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:33937/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f5a7a4b379fbb7b2c74e051cd5b19654
+	at ejercicio3.conPOyPFact.TestShoes.setupCookies(TestShoes.java:30)
+

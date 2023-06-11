@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="matriculacion-comun" />
+        <module name="matriculacion-dao" />
+        <module name="hotelDatabase" />
+        <module name="hotelWebApp" />
+        <module name="matriculacion-bo" />
+        <module name="matriculacion-proxy" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hotelDatabase" target="11" />
+      <module name="hotelWebApp" target="11" />
+      <module name="matriculacion" target="11" />
+      <module name="matriculacion-bo" target="11" />
+      <module name="matriculacion-comun" target="11" />
+      <module name="matriculacion-dao" target="11" />
+      <module name="matriculacion-proxy" target="11" />
+      <module name="ppss" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

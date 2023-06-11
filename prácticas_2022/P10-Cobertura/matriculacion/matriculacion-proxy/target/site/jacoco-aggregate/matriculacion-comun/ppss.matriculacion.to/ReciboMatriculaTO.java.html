@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../jacoco-resources/report.gif" type="image/gif"/><title>ReciboMatriculaTO.java</title><link rel="stylesheet" href="../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../index.html" class="el_report">matriculacion-proxy</a> &gt; <a href="../index.html" class="el_bundle">matriculacion-comun</a> &gt; <a href="index.source.html" class="el_package">ppss.matriculacion.to</a> &gt; <span class="el_source">ReciboMatriculaTO.java</span></div><h1>ReciboMatriculaTO.java</h1><pre class="source lang-java linenums">package ppss.matriculacion.to;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ReciboMatriculaTO {
+
+	AlumnoTO alumno;
+	List&lt;LineaReciboMatriculaTO&gt; asignaturasMatricula;
+	float tasaMatricula;
+	float total;
+	
+	public static class LineaReciboMatriculaTO {
+		AsignaturaTO asignatura;
+		float precioAsignatura;
+				
+<span class="nc" id="L17">		public LineaReciboMatriculaTO() {</span>
+<span class="nc" id="L18">		}</span>
+
+		public LineaReciboMatriculaTO(AsignaturaTO asignatura,
+<span class="nc" id="L21">				float precioAsignatura) {</span>
+<span class="nc" id="L22">			this.asignatura = asignatura;</span>
+<span class="nc" id="L23">			this.precioAsignatura = precioAsignatura;</span>
+<span class="nc" id="L24">		}</span>
+		
+		public AsignaturaTO getAsignatura() {
+<span class="nc" id="L27">			return asignatura;</span>
+		}
+		
+		public void setAsignatura(AsignaturaTO asignatura) {
+<span class="nc" id="L31">			this.asignatura = asignatura;</span>
+<span class="nc" id="L32">		}</span>
+		
+		public float getPrecioAsignatura() {
+<span class="nc" id="L35">			return precioAsignatura;</span>
+		}
+		
+		public void setPrecioAsignatura(float precioAsignatura) {
+<span class="nc" id="L39">			this.precioAsignatura = precioAsignatura;</span>
+<span class="nc" id="L40">		}</span>
+	}
+
+<span class="nc" id="L43">	public ReciboMatriculaTO() {</span>
+<span class="nc" id="L44">		asignaturasMatricula = new ArrayList&lt;LineaReciboMatriculaTO&gt;();</span>
+<span class="nc" id="L45">	}</span>
+	
+	public AlumnoTO getAlumno() {
+<span class="nc" id="L48">		return alumno;</span>
+	}
+
+	public void setAlumno(AlumnoTO alumno) {
+<span class="nc" id="L52">		this.alumno = alumno;</span>
+<span class="nc" id="L53">	}</span>
+
+	public void addAsignaturaMatricula(AsignaturaTO asignatura, float precio) {
+<span class="nc" id="L56">		asignaturasMatricula.add(new LineaReciboMatriculaTO(asignatura, precio));</span>
+<span class="nc" id="L57">	}</span>
+	
+	public List&lt;LineaReciboMatriculaTO&gt; getAsignaturasMatricula() {
+<span class="nc" id="L60">		return asignaturasMatricula;</span>
+	}
+
+	public float getTasaMatricula() {
+<span class="nc" id="L64">		return tasaMatricula;</span>
+	}
+
+	public void setTasaMatricula(float tasaMatricula) {
+<span class="nc" id="L68">		this.tasaMatricula = tasaMatricula;</span>
+<span class="nc" id="L69">	}</span>
+
+	public float getTotal() {
+<span class="nc" id="L72">		return total;</span>
+	}
+
+	public void setTotal(float total) {
+<span class="nc" id="L76">		this.total = total;</span>
+<span class="nc" id="L77">	}</span>
+	
+	
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

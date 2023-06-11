@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: ejercicio1.sinPageObject.TestCreateAccount
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.258 s <<< FAILURE! - in ejercicio1.sinPageObject.TestCreateAccount
+ejercicio1.sinPageObject.TestCreateAccount.createAccount  Time elapsed: 1.257 s  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=99.0.4844.84)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'ppss-VB', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-44-generic', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1fd01bbcb4993b947f379201b94884eb, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /tmp/.com.google.Chrome.l8OjTw}, goog:chromeOptions: {debuggerAddress: localhost:43979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:43979/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fd01bbcb4993b947f379201b94884eb
+	at ejercicio1.sinPageObject.TestCreateAccount.createAccount(TestCreateAccount.java:38)
+

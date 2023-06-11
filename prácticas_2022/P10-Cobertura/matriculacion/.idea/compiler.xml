@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="matriculacion" target="11" />
+      <module name="matriculacion-bo" target="1.5" />
+      <module name="matriculacion-comun" target="1.5" />
+      <module name="matriculacion-dao" target="1.5" />
+      <module name="matriculacion-proxy" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

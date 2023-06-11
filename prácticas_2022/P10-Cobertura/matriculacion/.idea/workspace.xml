@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7cf04d3f-6cf5-4df3-be72-3be12a5efbd8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/matriculacion-bo/matriculacion-bo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/matriculacion-bo/matriculacion-bo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/matriculacion-bo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/matriculacion-bo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/matriculacion-comun/matriculacion-comun.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/matriculacion-comun/matriculacion-comun.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/matriculacion-comun/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/matriculacion-comun/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/matriculacion-dao/matriculacion-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/matriculacion-dao/matriculacion-dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/matriculacion-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/matriculacion-dao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/matriculacion-dao/src/main/java/ppss/matriculacion/dao/FuenteDatosJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/matriculacion-dao/src/main/java/ppss/matriculacion/dao/FuenteDatosJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/matriculacion-dao/src/main/java/ppss/matriculacion/dao/JDBCAlumnoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/matriculacion-dao/src/main/java/ppss/matriculacion/dao/JDBCAlumnoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/matriculacion-proxy/matriculacion-proxy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/matriculacion-proxy/matriculacion-proxy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/matriculacion-proxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/matriculacion-proxy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/matriculacion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/matriculacion.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../P06A-Multimodulo/multimodulos/matriculacion/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../P09-JMeter/Plan-Ejercicio1-proxy.jmx" beforeDir="false" afterPath="$PROJECT_DIR$/../../P09-JMeter/Plan-Ejercicio1-proxy.jmx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="29z0c97z9xgyczPFKPedeUP5kZc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/ppss/ppss-2022-g1-formanyuk/P06A-Multimodulo",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn matriculacion:report" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.All in matriculacion-dao (1)">
+    <configuration name="All in matriculacion-dao (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="matriculacion-dao" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in matriculacion-dao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="matriculacion-dao" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in matriculacion-dao (1)" />
+        <item itemvalue="JUnit.All in matriculacion-dao" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7cf04d3f-6cf5-4df3-be72-3be12a5efbd8" name="Changes" comment="" />
+      <created>1654100683423</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654100683423</updated>
+      <workItem from="1654100684511" duration="93000" />
+      <workItem from="1654100842464" duration="7165000" />
+      <workItem from="1654160756662" duration="17000" />
+      <workItem from="1654160781700" duration="7941000" />
+      <workItem from="1654502553156" duration="700000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

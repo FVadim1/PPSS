@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: ejercicio2.conPO.TestLogin
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 7.681 s <<< FAILURE! - in ejercicio2.conPO.TestLogin
+ejercicio2.conPO.TestLogin.test_Login_InCorrect  Time elapsed: 5.771 s  <<< ERROR!
+java.lang.NullPointerException
+	at ejercicio2.conPO.TestLogin.setup(TestLogin2.java:35)
+
+ejercicio2.conPO.TestLogin.test_Login_Correct  Time elapsed: 1.897 s  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=99.0.4844.84)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'ppss-VB', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-40-generic', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9d39c2d7f9aa028992be4df9526a440, get {url=http://demo-store.seleniumacademy.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /tmp/.com.google.Chrome.GmTSeY}, goog:chromeOptions: {debuggerAddress: localhost:37269}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:37269/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d9d39c2d7f9aa028992be4df9526a440
+	at ejercicio2.conPO.TestLogin.setup(TestLogin2.java:27)
+

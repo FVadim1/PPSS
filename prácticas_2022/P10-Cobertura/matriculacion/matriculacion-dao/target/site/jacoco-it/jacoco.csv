@@ -1,0 +1,7 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+matriculacion-dao,ppss.matriculacion.dao,FactoriaDAO,8,7,0,0,2,2,2,2,2,2
+matriculacion-dao,ppss.matriculacion.dao,FuenteDatosJDBC,4,23,0,2,2,9,0,5,0,4
+matriculacion-dao,ppss.matriculacion.dao,JDBCAlumnoDAO,160,104,20,8,51,36,15,5,3,3
+matriculacion-dao,ppss.matriculacion.dao,DAOException,7,9,0,0,4,4,2,2,2,2
+matriculacion-dao,ppss.matriculacion.dao,JDBCMatriculaDAO,11,0,0,0,6,0,6,0,6,0
+matriculacion-dao,ppss.matriculacion.dao,JDBCAsignaturaDAO,11,0,0,0,6,0,6,0,6,0

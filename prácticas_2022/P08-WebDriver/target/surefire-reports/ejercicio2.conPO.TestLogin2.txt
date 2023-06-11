@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: ejercicio2.conPO.TestLogin2
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 3.652 s <<< FAILURE! - in ejercicio2.conPO.TestLogin2
+ejercicio2.conPO.TestLogin2.test_Login_InCorrect  Time elapsed: 2.124 s  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=99.0.4844.84)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'ppss-VB', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-44-generic', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8a30421d9063203fb528b35e70a54d12, findElement {using=xpath, value=//*[@id="header"]/div/div[2]/div/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /tmp/.com.google.Chrome.o4T5TI}, goog:chromeOptions: {debuggerAddress: localhost:37597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:37597/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a30421d9063203fb528b35e70a54d12
+	at ejercicio2.conPO.TestLogin2.setup(TestLogin2.java:22)
+
+ejercicio2.conPO.TestLogin2.test_Login_Correct  Time elapsed: 1.511 s  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=99.0.4844.84)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'ppss-VB', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.13.0-44-generic', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67d24eeba2d78503c136c1d2bf8b74fb, findElement {using=xpath, value=//*[@id="header"]/div/div[2]/div/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: /tmp/.com.google.Chrome.0gqxB5}, goog:chromeOptions: {debuggerAddress: localhost:45459}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:45459/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 67d24eeba2d78503c136c1d2bf8b74fb
+	at ejercicio2.conPO.TestLogin2.setup(TestLogin2.java:22)
+
